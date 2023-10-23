@@ -1,0 +1,21 @@
+.content {
+	position: relative;
+	padding: 64px;
+	border-radius: 10px;
+	background: var(--light-theme-bg-primary-default);
+}
+
+.img {
+	position: absolute;
+	top: -120px;
+	right: 0;
+	height: 193px;
+	width: 179px;
+}
+
+.title {
+	margin: 0 0 32px;
+	font-size: 42px;
+	line-height: 1.19;
+  text-align: center;
+}

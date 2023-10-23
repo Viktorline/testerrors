@@ -1,0 +1,10 @@
+:root {
+	--white: #fff;
+	--light-theme-bg-primary-default: #fcfcfc;
+	--light-theme-text-primary-default: #2d2d2d;
+	--text-error: #df4c25;
+	--both-theme-input-default: #05303d;
+	--light-theme-text-secondary-default: #909090;
+	--light-theme-bg-primary-button-default: #ff9c46;
+  --both-threme-input-success: #2A8F55;
+}

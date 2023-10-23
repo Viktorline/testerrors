@@ -1,0 +1,9 @@
+.logo {
+	display: inline-block;
+	width: 121px;
+	height: 64px;
+	color: var(--white);
+	font-size: 48px;
+	line-height: 1.33;
+	font-weight: 900;
+}

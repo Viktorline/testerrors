@@ -1,0 +1,12 @@
+.container {
+	max-width: 704px;
+	margin: 0 auto;
+}
+
+.section {
+	text-align: center;
+}
+
+.btn {
+	width: 100%;
+}

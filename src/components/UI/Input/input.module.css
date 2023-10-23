@@ -1,0 +1,69 @@
+.wrapper {
+  position: relative;
+}
+
+.wrapper.error .input {
+	border-color: var(--text-error);
+}
+
+.wrapper.success .input {
+	border-color: var(--both-threme-input-success);
+}
+
+.errorMessage {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: var(--text-error);
+}
+
+.successMessage {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: var(--both-threme-input-success);
+}
+
+
+.label {
+	display: block;
+	margin-bottom: 8px;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.2;
+	transition: color 0.3s ease-in-out;
+}
+
+.input {
+	height: 56px;
+	width: 100%;
+  margin-bottom: 8px;
+	padding: 16px;
+	border: 2px solid var(--both-theme-input-default);
+	border-radius: 10px;
+	font-size: 20px;
+	transition:
+		color 0.3s ease-in-out,
+		border-color 0.3s ease-in-out;
+}
+
+.tooltip {
+	display: block;
+	color: var(--light-theme-text-secondary-default);
+	font-weight: 500;
+	line-height: 1.25;
+}
+
+.btnWrap {
+  position: absolute;
+  top: 48px;
+  right: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.btnWrap button {
+  transition: transform 0.3s ease-in-out;
+}
+
+.btnWrap button:focus, .btnWrap button:hover {
+  transform: scale(1.1);
+}

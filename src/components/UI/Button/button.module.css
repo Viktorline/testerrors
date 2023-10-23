@@ -1,0 +1,21 @@
+.btn {
+	max-width: 304px;
+	padding: 20px 24px;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.2;
+	color: var(--light-theme-bg-primary-default);
+	text-align: center;
+	background: var(--light-theme-bg-primary-button-default);
+}
+
+.tip {
+	margin-top: 8px;
+	font-size: 10px;
+	color: var(--light-theme-text-secondary-default);
+}
+
+.tip span {
+	font-weight: 700;
+}
